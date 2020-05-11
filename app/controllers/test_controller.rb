@@ -1,6 +1,6 @@
 class TestController < ApplicationController
   def index
-      # user=User.create(name:"Fefe", email: "fefe39000@yopmail.com")
+      # user=User.create(first_name:"Fefe", email: "fefe39000@yopmail.com")
       # puts "#"*100
       # puts user.errors
       # puts "#"*100
