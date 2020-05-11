@@ -13,6 +13,7 @@ class UserMailer < ApplicationMailer
   end
    
   def attendance_email(user)
+    user=User.find_by(id: user.user_id)
     #on récupère l'instance user pour ensuite pouvoir la passer à la view en @user
     @user = user 
 
