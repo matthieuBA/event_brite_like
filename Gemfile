@@ -64,3 +64,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "faker", "~> 2.11"
 
 gem "table_print", "~> 1.5"
+
+gem 'better_errors'
